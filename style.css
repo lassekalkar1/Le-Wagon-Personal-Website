@@ -1,0 +1,96 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Circular Std;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #0038FF;
+}
+
+/** responsiveness **/
+
+@media (max-width: 725px) {
+  /* For a screen < 725px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* For a screen < 725px, this CSS will be read */
+  .card {
+    width: 325px;
+  }
+}
+
+
+/** Container and other stuff from here **/
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 15px #ddd;
+  padding: 50px 70px 90px 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.profile-image {
+  border-radius: 100px;
+  box-shadow: 5px 5px 20px 5px #ddd;
+}
+
+.primary-button {
+  font-family: Circular Std;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #0038ff;
+  border-radius: 50px;
+  box-shadow: 5px 5px 20px 15px #ddd;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  color: #0038FF;
+  background-color: #ffffff;
+}
+
+#paragraph-card {
+  margin-bottom: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
